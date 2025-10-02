@@ -12,6 +12,7 @@
                 <li><a href="kategori.php">Kategori</a></li>
                 <li><a href="users.php">Data User</a></li>
                 <li><a href="laporan.php">Laporan</a></li>
+                <li><a href="laporan.php">Laporan</a></li>
             <?php endif; ?>
             
             <?php if ($_SESSION['role'] == 'kasir'): ?>
