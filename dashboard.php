@@ -77,7 +77,7 @@ $transaksi_terbaru = mysqli_query($conn, $query_transaksi);
         
         <div class="card">
             <div class="card-header">
-                <h2>Transaksi Terbaru</h2>
+                <h2>Transaksi Terbaru Saat ini</h2>
             </div>
             <div class="card-body">
                 <table class="table">
