@@ -50,7 +50,7 @@ $result = mysqli_query($conn, $query);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kategori - Aplikasi Penjualan</title>
+    <title>Kategori - Aplikasi Penjualan Barang</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
