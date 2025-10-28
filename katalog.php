@@ -99,7 +99,7 @@ if (isset($_SESSION['cart'])) {
                     </div>
                     
                     <div class="form-group" style="flex: 1; margin: 0;">
-                        <label>Kategori</label>
+                        <label>Kategori Barang</label>
                         <select name="kategori" class="form-control">
                             <option value="">Semua Kategori</option>
                             <?php while ($kat = mysqli_fetch_assoc($kategori_list)): ?>
