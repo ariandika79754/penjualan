@@ -86,7 +86,7 @@ $result_detail = mysqli_query($conn, $query_detail);
         
         <div class="invoice-container">
             <div class="invoice-header">
-                <h2 style="color: #667eea;">🛒 Aplikasi Penjualan</h2>
+                <h2 style="color: #667eea;">🛒 Aplikasi Penjualan Barang</h2>
                 <h3>Invoice: <?php echo $transaksi['kode_transaksi']; ?></h3>
             </div>
             
@@ -110,7 +110,7 @@ $result_detail = mysqli_query($conn, $query_detail);
                 </div>
             </div>
             
-            <h3 style="margin-bottom: 15px;">Detail Item</h3>
+            <h3 style="margin-bottom: 15px;">Detail Barang</h3>
             <table class="table">
                 <thead>
                     <tr>
