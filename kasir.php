@@ -115,7 +115,7 @@ $result_barang = mysqli_query($conn, $query_barang);
     <div class="container">
         <div class="page-header">
             <h1>Kasir</h1>
-            <p>Proses transaksi penjualan barang</p>
+            <p>Proses transaksi penjualan</p>
         </div>
         
         <?php if ($success): ?>
